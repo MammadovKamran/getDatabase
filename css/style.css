@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.column_header {
+  cursor: pointer;
+}
+.column {
+  max-width: 250px;
+}
+
+.entry {
+  padding: 20px 0;
+}
+.entry > h3 {
+  margin-bottom: 10px;
+}
+.hide {
+  display: none;
+}
